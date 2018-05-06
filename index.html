@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <title>TSA Data</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+</head>
+<body ng-controller="ctrl">
+    <h1>TSA Graphs</h1>
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Graph 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Graph 2</a>
+        </li>
+    </ul>
+    <h3>{{ msg }}</h3>
+
+    <div id="bar"></div>
+
+    <script src="./lib/angular.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="bar.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

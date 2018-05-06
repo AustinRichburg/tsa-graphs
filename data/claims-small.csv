@@ -1,0 +1,233 @@
+Claim Number,Date Received,Incident Date,Airport Code,Airport Name,Airline Name,Claim Type,Claim Site,Item Category,Close Amount,Disposition
+2010010567154,4-Jan-10,1/3/2010 14:30,SLC,Salt Lake City International Airport,Delta Air Lines  ,Property Damage,Checked Baggage,Cosmetics & Grooming,$0.00 ,Deny
+2010010567158,4-Jan-10,1/2/2010 0:00,LAX,Los Angeles International Airport ,Southwest Airlines  ,Passenger Property Loss,Checked Baggage,Other,$0.00 ,Deny
+2010010567173,4-Jan-10,1/2/2010 5:00,SEA,Seattle-Tacoma International,Delta Air Lines  ,Passenger Property Loss,Checked Baggage,Cameras; Cameras,$0.00 ,Deny
+2010010567177,4-Jan-10,1/1/2010 0:00,DEN,Denver International Airport ,Southwest Airlines  ,Passenger Property Loss,Checked Baggage,Clothing,-,-
+2010010567182,4-Jan-10,1/2/2010 0:00,LAS,McCarran International,American Airlines  ,Passenger Property Loss,Checked Baggage,Travel Accessories,$0.00 ,Deny
+2010010567184,4-Jan-10,1/3/2010 0:00,DFW,Dallas-Fort Worth International Airport ,American Airlines  ,Passenger Property Loss,Checked Baggage,Travel Accessories,$0.00 ,Deny
+2010010667239,4-Jan-10,1/2/2010 15:00,ASE,Aspen Pitkin County Sardy Field,Frontier Airlines,Passenger Property Loss,Checked Baggage,Clothing,$0.00 ,Deny
+2010011167421,4-Jan-10,1/1/2010 0:00,SEA,Seattle-Tacoma International,Delta Air Lines  ,Passenger Property Loss,Checkpoint,Computer & Accessories,"$1,579.40 ",Settle
+2010010567163,5-Jan-10,1/5/2010 0:00,XNA,Northwest Arkansas Regional,American Airlines  ,Passenger Property Loss,Checked Baggage,Cameras; Cameras,$193.98 ,Approve in Full
+2010010767268,5-Jan-10,1/2/2010 0:00,IAD,Washington Dulles International,UAL  ,Passenger Property Loss,Checked Baggage,Baggage/Cases/Purses; Travel Accessories,-,-
+2010072574035,20-Aug-10,5/27/2010 0:00,PHX,Phoenix Sky Harbor International,Alaska Airlines  ,Passenger Property Loss,Checked Baggage,Cameras,$0.00 ,Deny
+2010082275213,20-Aug-10,8/17/2010 20:30,JFK,John F. Kennedy International,Jet Blue,Passenger Property Loss,Checked Baggage,Jewelry & Watches,$0.00 ,Deny
+2010082275216,20-Aug-10,8/13/2010 14:15,ELP,El Paso International Airport,Southwest Airlines  ,Property Damage,Checkpoint,Baggage/Cases/Purses,$0.00 ,Deny
+2010082275219,20-Aug-10,8/11/2010 4:30,CLT,Charlotte/Douglas International Airport,American Airlines  ,Passenger Property Loss,Checkpoint,Other,$106.16 ,Approve in Full
+2010082275221,20-Aug-10,8/14/2010 17:00,IAD,Washington Dulles International,Qatar airlines,Property Damage,Checked Baggage,Baggage/Cases/Purses; Travel Accessories,$0.00 ,Deny
+2010082275223,20-Aug-10,7/31/2010 20:45,HNL,Honolulu International Airport,Continental Airlines  ,Passenger Property Loss,Checked Baggage,Clothing,$95.00 ,Approve in Full
+2010082275224,20-Aug-10,8/14/2010 5:15,LIT,Little Rock National,-,Property Damage,Checkpoint,Computer & Accessories,$224.00 ,Approve in Full
+2010082575329,20-Aug-10,8/18/2010 15:00,LAS,McCarran International,Southwest Airlines  ,Personal Injury,Checkpoint,Other,$0.00 ,Deny
+2010082675352,20-Aug-10,8/8/2010 14:00,JFK,John F. Kennedy International,Air China,Passenger Property Loss,Checked Baggage,Personal Electronics; Personal Electronics,$0.00 ,Deny
+2010082675356,20-Aug-10,6/27/2010 10:30,TOL,Toledo Express,Allegiant Air,Passenger Property Loss,Checkpoint,Cameras,$150.00 ,Approve in Full
+2010082675359,20-Aug-10,7/11/2010 10:00,SMF,Sacramento International Airport,Southwest Airlines  ,Passenger Property Loss,Checked Baggage,Clothing,$46.00 ,Approve in Full
+2010082675361,20-Aug-10,7/6/2010 6:00,MIA,Miami International Airport,TAM airlines,Property Damage,Checked Baggage,Baggage/Cases/Purses,$0.00 ,Deny
+2010082675364,20-Aug-10,8/3/2010 0:00,BGR,Bangor International Airport,USAir  ,Passenger Property Loss,Checked Baggage,Personal Electronics,$0.00 ,Deny
+2010082675367,20-Aug-10,8/1/2010 9:50,BDL,Bradley International Airport,Southwest Airlines  ,Property Damage,Checkpoint,Personal Accessories,$130.00 ,Approve in Full
+2010082675369,20-Aug-10,8/4/2010 0:00,SEA,Seattle-Tacoma International,British Airways  ,Passenger Property Loss,Checked Baggage,Home Decor,$0.00 ,Deny
+2010082675371,20-Aug-10,8/4/2010 0:00,GPI,"Glacier Park Int., Kalispell, MT",UAL  ,Property Damage,Checked Baggage,Cameras,$31.42 ,Approve in Full
+2010082675373,20-Aug-10,7/22/2010 10:00,PDX,Portland International,Delta Air Lines  ,Property Damage,Checkpoint,Baggage/Cases/Purses,$50.00 ,Settle
+2010082675378,20-Aug-10,7/23/2010 0:00,GEG,Spokane International,Delta Air Lines  ,Passenger Property Loss,Checked Baggage,Travel Accessories,$12.00 ,Approve in Full
+2010090875808,20-Aug-10,8/6/2010 0:00,ERI,Erie International,Delta Air Lines  ,Property Damage,Checked Baggage,Baggage/Cases/Purses; Clothing; Computer & Accessories,$0.00 ,Deny
+2010083175504,22-Aug-10,6/3/2010 20:00,ORD,Chicago O'Hare International Airport,American Airlines  ,Passenger Property Loss,Checked Baggage,Food & Drink; Jewelry & Watches,$0.00 ,Deny
+2010082575325,23-Aug-10,7/22/2010 19:55,SLC,Salt Lake City International Airport,Southwest Airlines  ,Property Damage,Checkpoint,Personal Accessories,$0.00 ,Deny
+2010082475272,23-Aug-10,7/28/2010 8:00,JFK,John F. Kennedy International,American Airlines  ,Passenger Property Loss,Checked Baggage,Baggage/Cases/Purses; Clothing; Clothing; Clothing,$0.00 ,Deny
+2010082475280,23-Aug-10,8/12/2010 7:30,LIH,Lihue Airport,Hawaiian Airlines  ,Passenger Property Loss,Checkpoint,Cameras,-,-
+2010082475286,23-Aug-10,8/18/2010 6:15,MCO,Orlando International Airport,Jet Blue,Passenger Property Loss,Checkpoint,Computer & Accessories,$0.00 ,Deny
+2010082475301,23-Aug-10,5/28/2010 10:15,IND,Indianapolis International,AirTran Airlines,Personal Injury,Checkpoint,-,$0.00 ,Deny
+2010082475305,23-Aug-10,8/18/2010 10:00,MDW,Midway International Airport,Southwest Airlines  ,Passenger Property Loss,Checked Baggage,Jewelry & Watches,$0.00 ,Deny
+2010082475314,23-Aug-10,7/25/2010 7:30,SNA,John Wayne,American Airlines  ,Passenger Property Loss,Checkpoint,Personal Electronics,$0.00 ,Deny
+2010082475319,23-Aug-10,8/12/2010 16:15,ATL,Hartsfield-Jackson Atlanta International Airport,Delta Air Lines  ,Passenger Property Loss,Checked Baggage,Clothing; Travel Accessories,$0.00 ,Deny
+2010082475320,23-Aug-10,8/14/2010 0:00,ALB,Albany International,Delta Air Lines  ,Passenger Property Loss,Checked Baggage,Clothing,$0.00 ,Deny
+2010082575321,23-Aug-10,8/16/2010 17:00,MCO,Orlando International Airport,Jet Blue,Passenger Property Loss,Checked Baggage,Other,$0.00 ,Deny
+2010082575322,23-Aug-10,8/4/2010 17:15,IAD,Washington Dulles International,UAL  ,Passenger Property Loss,Checkpoint,Computer & Accessories,$770.54 ,Settle
+2010082575327,23-Aug-10,8/17/2010 13:48,CVG,Cincinnati/Northern Kentucky International,USAir  ,Passenger Property Loss,Checked Baggage,Baggage/Cases/Purses; Cosmetics & Grooming; Cosmetics & Grooming; Cosmetics & Grooming; Cosmetics & Grooming; Cosmetics & Grooming; Medical/Science; Other,$0.00 ,Deny
+2010082575330,23-Aug-10,7/11/2010 0:00,RNO,Reno/Tahoe International,Southwest Airlines  ,Passenger Property Loss,Checked Baggage,Clothing; Clothing; Clothing,$0.00 ,Deny
+2010082575331,23-Aug-10,8/14/2010 7:45,FSD,Joe Foss Field,American Airlines  ,Passenger Property Loss,Checked Baggage,Cosmetics & Grooming; Other,-,-
+2010082575332,23-Aug-10,8/12/2010 14:00,LAX,Los Angeles International Airport ,Delta Air Lines  ,Passenger Property Loss,Checked Baggage,Cameras; Computer & Accessories,$0.00 ,Deny
+2010082575334,23-Aug-10,8/22/2010 0:00,LGA,LaGuardia ,American Airlines  ,Passenger Property Loss,Checked Baggage,Computer & Accessories,$0.00 ,Deny
+2010082575336,23-Aug-10,8/19/2010 15:30,JFK,John F. Kennedy International,Alitalia  ,Property Damage,Checked Baggage,"Baggage/Cases/Purses; Books, Magazines & Other; Clothing",$0.00 ,Deny
+2010082575337,23-Aug-10,8/5/2010 5:05,DCA,Ronald Reagan Washington National Airport,USAir  ,Passenger Property Loss,Checked Baggage,Jewelry & Watches,$0.00 ,Deny
+2010082575338,23-Aug-10,7/11/2010 0:00,TPA,Tampa International,Southwest Airlines  ,Property Damage,Checked Baggage,Musical Instruments & Accessories,$0.00 ,Deny
+2010082575339,23-Aug-10,8/8/2010 4:44,GUM,Guam,Continental Airlines  ,Passenger Property Loss,Checked Baggage,Personal Accessories; Personal Electronics,$0.00 ,Deny
+2010082575340,23-Aug-10,7/16/2010 8:00,ATL,Hartsfield-Jackson Atlanta International Airport,AirTran Airlines,Passenger Property Loss,Checked Baggage,Jewelry & Watches,$0.00 ,Deny
+2010082575342,23-Aug-10,8/15/2010 17:00,FLL,Ft. Lauderdale-Hollywood International,Air Jamaica  ,Passenger Property Loss,Checked Baggage,Baggage/Cases/Purses,$0.00 ,Deny
+2010082575349,23-Aug-10,8/21/2010 6:40,DTW,Detroit Metropolitan Wayne County Airport,American Airlines  ,Property Damage,Checkpoint,Personal Accessories,$0.00 ,Deny
+2010082675351,23-Aug-10,8/12/2010 11:25,JFK,John F. Kennedy International,Jet Blue,Property Damage,Checked Baggage,Sporting Equipment & Supplies,$37.99 ,Approve in Full
+2010082675353,23-Aug-10,8/16/2010 16:30,IAD,Washington Dulles International,Southwest Airlines  ,Passenger Property Loss,Checked Baggage,Other,-,-
+2010082675355,23-Aug-10,8/6/2010 10:30,MCO,Orlando International Airport,American Airlines  ,Passenger Property Loss,Checked Baggage,Computer & Accessories,$0.00 ,Deny
+2010082675357,23-Aug-10,8/16/2010 0:00,EWR,Newark International Airport,Continental Airlines  ,Property Damage,Checked Baggage,Baggage/Cases/Purses; Baggage/Cases/Purses; Food & Drink; Other,$0.00 ,Deny
+2010082675360,23-Aug-10,7/16/2010 17:25,SEA,Seattle-Tacoma International,Alaska Airlines  ,Property Damage,Checked Baggage,Baggage/Cases/Purses; Computer & Accessories,$0.00 ,Deny
+2010082675363,23-Aug-10,6/11/2010 19:00,DEN,Denver International Airport ,British Airways  ,Passenger Property Loss,Checked Baggage,Clothing,$0.00 ,Deny
+2010082675365,23-Aug-10,4/27/2010 0:00,LGA,LaGuardia ,American Airlines  ,Property Damage,Checked Baggage,Baggage/Cases/Purses,$0.00 ,Deny
+2010082675368,23-Aug-10,7/25/2010 9:00,IAH,Houston - George Bush Intercontinental Airport,Continental Airlines  ,Property Damage,Checked Baggage,Other,$0.00 ,Deny
+2010082675372,23-Aug-10,7/15/2010 0:00,IAH,Houston - George Bush Intercontinental Airport,Continental Airlines  ,Property Damage,Checked Baggage,Clothing; Other,$90.00 ,Approve in Full
+2010082675375,23-Aug-10,7/1/2010 12:08,LAX,Los Angeles International Airport ,Delta Air Lines  ,Property Damage,Checked Baggage,Travel Accessories,$0.00 ,Deny
+2010082675376,23-Aug-10,8/8/2010 0:00,PHX,Phoenix Sky Harbor International,USAir  ,Passenger Property Loss,Checked Baggage,"Books, Magazines & Other; Other",$26.72 ,Approve in Full
+2010082775398,23-Aug-10,8/2/2010 0:00,DAL,Dallas Love Field,Southwest Airlines  ,Personal Injury,Checkpoint,Other,"$2,500.00 ",Settle
+2010082775403,23-Aug-10,8/12/2010 11:00,SEA,Seattle-Tacoma International,Delta Air Lines  ,Passenger Property Loss,Checked Baggage,Cameras; Food & Drink; Household Items,$0.00 ,Deny
+2010082875409,23-Aug-10,7/31/2010 0:00,CLT,Charlotte/Douglas International Airport,USAir  ,Passenger Property Loss,Checked Baggage,Cosmetics & Grooming; Medical/Science; Other; Other,-,-
+2010082875411,23-Aug-10,7/28/2010 0:00,SBN,South Bend Regional,Allegiant Air,Passenger Property Loss,Checked Baggage,Currency; Other,-,-
+2010082875412,23-Aug-10,6/13/2010 0:00,DFW,Dallas-Fort Worth International Airport ,American Airlines  ,Passenger Property Loss,Checked Baggage,Jewelry & Watches,$0.00 ,Deny
+2010082875415,23-Aug-10,8/12/2010 0:00,AUS,Austin-Bergstrom International Airport,Southwest Airlines  ,Property Damage,Checked Baggage,Travel Accessories,$6.97 ,Approve in Full
+2010082875417,23-Aug-10,7/16/2010 0:00,PHX,Phoenix Sky Harbor International,Southwest Airlines  ,Passenger Property Loss,Checked Baggage,Cosmetics & Grooming,-,-
+2010082875418,23-Aug-10,7/12/2010 0:00,ATL,Hartsfield-Jackson Atlanta International Airport,Continental Airlines  ,Passenger Property Loss,Checked Baggage,Clothing; Clothing; Clothing; Crafting & Hobby; Personal Electronics,$0.00 ,Deny
+2010082875420,23-Aug-10,7/22/2010 0:00,MCO,Orlando International Airport,Delta Air Lines  ,Property Damage,Checked Baggage,Baggage/Cases/Purses; Clothing; Cosmetics & Grooming; Other,$0.00 ,Deny
+2010082875423,23-Aug-10,6/18/2010 0:00,ORD,Chicago O'Hare International Airport,USAir  ,Passenger Property Loss,Checkpoint,Personal Electronics,$0.00 ,Deny
+2010082875424,23-Aug-10,8/2/2010 0:00,IAD,Washington Dulles International,Southwest Airlines  ,Property Damage,Checked Baggage,Baggage/Cases/Purses,$0.00 ,Deny
+2010082875426,23-Aug-10,7/31/2010 0:00,IND,Indianapolis International,AirTran Airlines,Passenger Property Loss,Checked Baggage,Medical/Science,$125.00 ,Approve in Full
+2010082875427,23-Aug-10,8/13/2010 15:50,ALB,Albany International,Southwest Airlines  ,Property Damage,Checkpoint,Clothing,$0.00 ,Deny
+2010082875428,23-Aug-10,7/23/2010 0:00,F,Foreign airport,TACA airlines,Passenger Property Loss,Checked Baggage,Travel Accessories,$0.00 ,Deny
+2010082875429,23-Aug-10,8/1/2010 14:30,LAS,McCarran International,Allegiant Air,Passenger Property Loss,Checked Baggage,Other,$0.00 ,Deny
+2010082875430,23-Aug-10,5/18/2010 0:00,PHX,Phoenix Sky Harbor International,Continental Airlines  ,Passenger Property Loss,Checked Baggage,Travel Accessories,$0.00 ,Deny
+2010082875431,23-Aug-10,7/29/2010 9:10,EWR,Newark International Airport,Continental Airlines  ,Property Damage,Checkpoint,Personal Electronics,$106.47 ,Approve in Full
+2010082875432,23-Aug-10,8/1/2010 7:30,IAD,Washington Dulles International,UAL  ,Property Damage,Checkpoint,Baggage/Cases/Purses,$0.00 ,Deny
+2010082875433,23-Aug-10,7/2/2010 16:20,MCO,Orlando International Airport,UAL  ,Passenger Property Loss,Checkpoint,Jewelry & Watches,$500.00 ,Settle
+2010082875434,23-Aug-10,8/9/2010 0:00,MCO,Orlando International Airport,Jet Blue,Passenger Property Loss,Checked Baggage,Travel Accessories,$15.95 ,Approve in Full
+2010082875435,23-Aug-10,8/13/2010 0:00,BOS,Boston (Logan) International Airport ,Air France,Property Damage,Checked Baggage,Travel Accessories,$45.39 ,Approve in Full
+2010082875436,23-Aug-10,5/8/2010 0:00,SDF,Louisville International,Delta Air Lines  ,Passenger Property Loss,Checkpoint,Baggage/Cases/Purses; Currency,$0.00 ,Deny
+2010082875437,23-Aug-10,7/31/2010 20:15,IAH,Houston - George Bush Intercontinental Airport,Continental Airlines  ,Passenger Property Loss,Checkpoint,Other,-,-
+2010082875438,23-Aug-10,8/10/2010 0:00,JFK,John F. Kennedy International,Jet Blue,Passenger Property Loss,Checked Baggage,Clothing; Jewelry & Watches,$0.00 ,Deny
+2010082875439,23-Aug-10,8/11/2010 11:36,BUR,Bob Hope ,USAir  ,Property Damage,Checked Baggage,Home Decor,$125.00 ,Approve in Full
+2010082875440,23-Aug-10,8/10/2010 7:00,RSW,Southwest Florida International,-,Property Damage,Checkpoint,Other,$152.00 ,Approve in Full
+2010082875441,23-Aug-10,5/14/2010 0:00,CHO,Charlottesville / Albemarle,USAir  ,Passenger Property Loss,Checked Baggage,Clothing,$0.00 ,Deny
+2010082875442,23-Aug-10,8/9/2010 0:00,MCO,Orlando International Airport,Delta Air Lines  ,Passenger Property Loss,Checked Baggage,Cosmetics & Grooming,$0.00 ,Deny
+2010082875443,23-Aug-10,7/28/2010 0:00,SEA,Seattle-Tacoma International,Delta Air Lines  ,Property Damage,Checkpoint,Computer & Accessories,$59.99 ,Settle
+2010083075463,23-Aug-10,7/29/2010 14:31,MCO,Orlando International Airport,UAL  ,Passenger Property Loss,Checked Baggage,Cameras,$0.00 ,Deny
+2010083075469,23-Aug-10,8/10/2010 0:00,IAH,Houston - George Bush Intercontinental Airport,Continental Airlines  ,Property Damage,Checked Baggage,Other,$84.50 ,Settle
+2010083075470,23-Aug-10,7/28/2010 20:00,ORD,Chicago O'Hare International Airport,UAL  ,Property Damage,Checked Baggage,Baggage/Cases/Purses,$0.00 ,Deny
+2010083075471,23-Aug-10,8/4/2010 9:50,LAX,Los Angeles International Airport ,American Airlines  ,Property Damage,Checked Baggage,Baggage/Cases/Purses; Computer & Accessories,$0.00 ,Deny
+2010083075473,23-Aug-10,8/10/2010 0:00,MCO,Orlando International Airport,Continental Airlines  ,Passenger Property Loss,Checked Baggage,Clothing; Other,$0.00 ,Deny
+2010083075475,23-Aug-10,4/23/2010 0:00,MKE,General Mitchell International Airport,AirTran Airlines,Personal Injury,Checkpoint,-,-,-
+2010083075478,23-Aug-10,6/16/2010 20:00,SJU,Luis Munoz Marin International,-,-,Checked Baggage,Cameras,-,-
+2010083075479,23-Aug-10,7/12/2010 21:00,IAD,Washington Dulles International,UAL  ,Property Damage,Checkpoint,Personal Electronics,$257.05 ,Approve in Full
+2010083075480,23-Aug-10,8/8/2010 7:10,MDW,Midway International Airport,Southwest Airlines  ,Passenger Property Loss,Checked Baggage,Other,$0.00 ,Deny
+2010083075481,23-Aug-10,8/4/2010 0:00,SLC,Salt Lake City International Airport,Southwest Airlines  ,Property Damage,Checked Baggage,Baggage/Cases/Purses,$0.00 ,Deny
+2010083175488,23-Aug-10,8/15/2010 13:52,DAL,Dallas Love Field,Southwest Airlines  ,Property Damage,Checked Baggage,Computer & Accessories,$0.00 ,Deny
+2010083175492,23-Aug-10,7/28/2010 6:00,LAX,Los Angeles International Airport ,American Airlines  ,Property Damage,Checked Baggage,Clothing; Cosmetics & Grooming; Food & Drink; Other,$0.00 ,Deny
+2010083175498,23-Aug-10,6/26/2010 8:30,EVV,Evansville Regional Airport,American Airlines  ,Property Damage,Checked Baggage,Baggage/Cases/Purses,$21.79 ,Approve in Full
+2010083175500,23-Aug-10,6/23/2010 16:00,MIA,Miami International Airport,Virgin Atlantic,Passenger Property Loss,Checked Baggage,Other,$0.00 ,Deny
+2010083175501,23-Aug-10,8/5/2010 0:00,MHT,Manchester Regional Airport,UAL  ,Property Damage,Checked Baggage,-,$0.00 ,Deny
+2010083175503,23-Aug-10,7/25/2010 18:00,HNL,Honolulu International Airport,UAL  ,Passenger Property Loss,Checked Baggage,Travel Accessories,$0.00 ,Deny
+2010083175505,23-Aug-10,8/13/2010 0:00,LAX,Los Angeles International Airport ,UAL  ,Passenger Property Loss,Checked Baggage,-,$0.00 ,Deny
+2010083175510,23-Aug-10,7/22/2010 0:00,MSY,New Orleans International,Delta Air Lines  ,Property Damage,Checkpoint,Cameras,$274.37 ,Settle
+2010083175511,23-Aug-10,6/29/2010 19:00,HNL,Honolulu International Airport,Hawaiian Airlines  ,Property Damage,Checked Baggage,-,$300.00 ,Settle
+2010083175512,23-Aug-10,4/23/2010 0:00,MIA,Miami International Airport,Delta Air Lines  ,Property Damage,Checked Baggage,Baggage/Cases/Purses,-,-
+2010083175513,23-Aug-10,7/31/2010 0:00,AMA,Rick Husband Amarillo International Airport,Southwest Airlines  ,Passenger Property Loss,Checked Baggage,Travel Accessories,$0.00 ,Deny
+2010083175515,23-Aug-10,6/28/2010 0:00,GSP,Greenville-Spartanburg,Delta Air Lines  ,Passenger Property Loss,Checked Baggage,Clothing,$0.00 ,Deny
+2010083175517,23-Aug-10,7/14/2010 23:00,GEG,Spokane International,Southwest Airlines  ,Passenger Property Loss,Checked Baggage,Sporting Equipment & Supplies,$0.00 ,Deny
+2010083175518,23-Aug-10,8/9/2010 0:00,LAS,McCarran International,Delta Air Lines  ,Passenger Property Loss,Checked Baggage,Other,$0.00 ,Deny
+2010083175521,23-Aug-10,8/18/2010 13:40,RDU,Raleigh-Durham International,Southwest Airlines  ,Property Damage,Checkpoint,Jewelry & Watches,$57.00 ,Settle
+2010083175522,23-Aug-10,8/13/2010 0:00,MSP,Minneapolis/ St.Paul International Airport,AirTran Airlines,Property Damage,Checkpoint,Personal Accessories,$0.00 ,Deny
+2010083175525,23-Aug-10,7/26/2010 0:00,CLT,Charlotte/Douglas International Airport,Delta Air Lines  ,Passenger Property Loss,Checked Baggage,Other,$0.00 ,Deny
+2010083175528,23-Aug-10,8/1/2010 13:00,PHX,Phoenix Sky Harbor International,Southwest Airlines  ,Passenger Property Loss,Checked Baggage,Audio/Video,$0.00 ,Deny
+2010083175530,23-Aug-10,7/25/2010 5:40,ORF,Norfolk International,Southwest Airlines  ,Passenger Property Loss,Checked Baggage,Travel Accessories,$9.99 ,Settle
+2010100176558,23-Aug-10,9/2/2010 0:00,GRR,Gerald R. Ford International Airport,Frontier Airlines,Passenger Property Loss,Checked Baggage,Travel Accessories,$0.00 ,Deny
+2010101877005,23-Aug-10,7/18/2010 0:00,MCO,Orlando International Airport,AirTran Airlines,Property Damage,Checked Baggage,Computer & Accessories,"$1,240.00 ",Approve in Full
+2010083175487,24-Aug-10,7/29/2010 15:00,LAX,Los Angeles International Airport ,UAL  ,Property Damage,Checkpoint,Other,$730.00 ,Approve in Full
+2010062573096,24-Aug-10,5/21/2010 15:00,LAX,Los Angeles International Airport ,Qantus Airways  ,Passenger Property Loss,Checked Baggage,Currency; Jewelry & Watches,$0.00 ,Deny
+2010071573722,24-Aug-10,6/6/2010 0:00,MLU,Monroe Regional,American Airlines  ,Passenger Property Loss,Checked Baggage,Clothing,$0.00 ,Deny
+2010072474017,24-Aug-10,6/17/2010 0:00,FAI,Fairbanks International,Delta Air Lines  ,Passenger Property Loss,Checked Baggage,Travel Accessories,$0.00 ,Deny
+2010082475303,24-Aug-10,7/26/2010 0:00,DFW,Dallas-Fort Worth International Airport ,-,Property Damage,Checkpoint,Computer & Accessories,$755.00 ,Settle
+2010082675362,24-Aug-10,7/29/2010 18:00,DEN,Denver International Airport ,British Airways  ,Passenger Property Loss,Checked Baggage,Computer & Accessories,$0.00 ,Deny
+2010082675366,24-Aug-10,7/31/2010 0:00,EWR,Newark International Airport,Continental Airlines  ,Passenger Property Loss,Checked Baggage,Clothing; Medical/Science,$0.00 ,Deny
+2010082675374,24-Aug-10,8/14/2010 12:00,JAX,Jacksonville International,-,Property Damage,Checked Baggage,Baggage/Cases/Purses,$0.00 ,Deny
+2010082675377,24-Aug-10,7/30/2010 0:00,CAK,Akron-Canton Regional,AirTran Airlines,Passenger Property Loss,Checked Baggage,Food & Drink,$44.00 ,Approve in Full
+2010082675379,24-Aug-10,8/8/2010 19:05,MCO,Orlando International Airport,Jet Blue,Property Damage,Checked Baggage,Computer & Accessories,-,-
+2010082775381,24-Aug-10,8/7/2010 18:00,SEA,Seattle-Tacoma International,Delta Air Lines  ,Passenger Property Loss,Checked Baggage,Sporting Equipment & Supplies,-,-
+2010082775382,24-Aug-10,8/20/2010 0:00,JFK,John F. Kennedy International,Delta Air Lines  ,Passenger Property Loss,Checked Baggage,Computer & Accessories; Other,$0.00 ,Deny
+2010082775383,24-Aug-10,8/22/2010 14:11,BUF,Buffalo Niagara International,Jet Blue,Property Damage,Checked Baggage,Home Decor; Home Decor; Other,$0.00 ,Deny
+2010082775384,24-Aug-10,8/11/2010 18:00,BWI,Baltimore/Washington Intl Thurgood Marshall,Southwest Airlines  ,Passenger Property Loss,Checked Baggage,Travel Accessories,$6.00 ,Approve in Full
+2010082775385,24-Aug-10,8/21/2010 0:00,AZO,Kalamazoo/Battle Creek International,American Airlines  ,Passenger Property Loss,Checked Baggage,Clothing,$0.00 ,Deny
+2010082775386,24-Aug-10,5/27/2010 4:00,LGA,LaGuardia ,Delta Air Lines  ,Property Damage,Checkpoint,Jewelry & Watches,$202.50 ,Approve in Full
+2010082775387,24-Aug-10,6/23/2010 18:00,JFK,John F. Kennedy International,Virgin America,Passenger Property Loss,Checkpoint,Baggage/Cases/Purses,$0.00 ,Deny
+2010082775388,24-Aug-10,8/16/2010 0:00,FLL,Ft. Lauderdale-Hollywood International,Jet Blue,Passenger Property Loss,Checked Baggage,Travel Accessories,$0.00 ,Deny
+2010082775389,24-Aug-10,8/17/2010 0:00,JFK,John F. Kennedy International,Delta Air Lines  ,Property Damage,Checked Baggage,Baggage/Cases/Purses,$0.00 ,Deny
+2010082775390,24-Aug-10,7/29/2010 12:43,PRC,Prescott Municipal,Great Lakes Airline,Property Damage,Checked Baggage,Home Decor,$17.27 ,Approve in Full
+2010082775393,24-Aug-10,8/20/2010 7:00,CVG,Cincinnati/Northern Kentucky International,Delta Air Lines  ,Passenger Property Loss,Checked Baggage,Clothing,$6.39 ,Approve in Full
+2010082775394,24-Aug-10,8/17/2010 0:00,SEA,Seattle-Tacoma International,American Airlines  ,Property Damage,Checked Baggage,Other,$0.00 ,Deny
+2010082775395,24-Aug-10,8/10/2010 8:00,DCA,Ronald Reagan Washington National Airport,Delta Air Lines  ,Passenger Property Loss,Checked Baggage,Hunting & Fishing Items,-,-
+2010082775397,24-Aug-10,8/20/2010 17:00,MEM,Memphis International Airport,Delta Air Lines  ,Passenger Property Loss,Checked Baggage,Cameras; Hunting & Fishing Items; Medical/Science; Other; Tools & Home Improvement Supplies,$0.00 ,Deny
+2010082775399,24-Aug-10,8/19/2010 12:35,PHX,Phoenix Sky Harbor International,Southwest Airlines  ,Passenger Property Loss,Checked Baggage,Other,$0.00 ,Deny
+2010082775406,24-Aug-10,8/20/2010 0:00,PBI,Palm Beach International,American Airlines  ,Passenger Property Loss,Checkpoint,Clothing; Clothing,-,-
+2012102297902,10-Sep-12,8/29/2012 15:10,MIA,Miami International Airport,American Airlines  ,Passenger Property Loss,Checked Baggage,Other,-,-
+2012102297903,10-Sep-12,8/26/2012 0:00,BOS,Boston (Logan) International Airport ,AirTran Airlines,Passenger Property Loss,Checked Baggage,Jewelry & Watches,-,-
+2012102297905,10-Sep-12,8/14/2012 0:00,DFW,Dallas-Fort Worth International Airport ,American Airlines  ,Property Damage,Checked Baggage,Home Decor,$0.00 ,Deny
+2012102297906,10-Sep-12,9/1/2012 0:00,MSY,New Orleans International,Southwest Airlines  ,Property Damage,Checked Baggage,Baggage/Cases/Purses; Personal Electronics,$0.00 ,Deny
+2012102297907,10-Sep-12,8/31/2012 12:30,MSO,Missoula International,Allegiant Air,Passenger Property Loss,Checkpoint,-,$79.95 ,Approve in Full
+2012102297908,10-Sep-12,8/16/2012 10:00,BIL,"Billings, MT",Delta Air Lines  ,Passenger Property Loss,Checked Baggage,Sporting Equipment & Supplies,-,-
+2012102297909,10-Sep-12,9/8/2012 0:00,HNL,Honolulu International Airport,Alaska Airlines  ,Passenger Property Loss,Checked Baggage,Jewelry & Watches,$0.00 ,Deny
+2012102297910,10-Sep-12,7/5/2012 9:00,BLI,Bellingham International,Alaska Airlines  ,Passenger Property Loss,Checkpoint,Other,$160.19 ,Approve in Full
+2012102297912,10-Sep-12,8/12/2012 0:00,MHT,Manchester Regional Airport,Southwest Airlines  ,Property Damage,Checked Baggage,Computer & Accessories,-,-
+2012102297914,10-Sep-12,8/5/2012 16:30,MIA,Miami International Airport,British Airways  ,Passenger Property Loss,Checkpoint,Jewelry & Watches,$0.00 ,Deny
+2012102297915,10-Sep-12,8/24/2012 11:34,EWR,Newark International Airport,Southwest Airlines  ,Passenger Property Loss,Checked Baggage,Other,$0.00 ,Deny
+2012102397928,10-Sep-12,7/10/2012 8:05,ZZX,Non TSA Airport (motor vehicle),-,Motor Vehicle,Motor Vehicle,Other,-,-
+2012102397931,10-Sep-12,8/5/2012 13:35,FLL,Ft. Lauderdale-Hollywood International,Southwest Airlines  ,Property Damage,Checked Baggage,Baggage/Cases/Purses,$0.00 ,Deny
+2012102397935,10-Sep-12,4/10/2012 13:15,STL,Lambert St. Louis International,Southwest Airlines  ,Passenger Property Loss,Checked Baggage,Jewelry & Watches,$0.00 ,Deny
+2012102397937,10-Sep-12,8/23/2012 12:16,SNA,John Wayne,AirTran Airlines,Passenger Property Loss,Checked Baggage,Medical/Science,$0.00 ,Deny
+2012102398002,10-Sep-12,7/21/2012 0:00,MIA,Miami International Airport,American Airlines  ,Passenger Property Loss,Checked Baggage,Medical/Science,$0.00 ,Deny
+2012102398006,10-Sep-12,9/7/2012 0:00,ATL,Hartsfield-Jackson Atlanta International Airport,Delta Air Lines  ,Property Damage,Checkpoint,Computer & Accessories; Other,$873.82 ,Settle
+2012102398009,10-Sep-12,9/2/2012 0:00,AMA,Rick Husband Amarillo International Airport,Southwest Airlines  ,Property Damage,Checked Baggage,Home Decor,$0.00 ,Deny
+2012102398013,10-Sep-12,7/20/2012 0:00,PDX,Portland International,UAL  ,Property Damage,Checked Baggage,Sporting Equipment & Supplies,-,-
+2012102398018,10-Sep-12,8/12/2012 0:00,SAN,San Diego International,Delta Air Lines  ,Passenger Property Loss,Checkpoint,Jewelry & Watches,$0.00 ,Deny
+2012102398019,10-Sep-12,8/2/2012 0:00,LAX,Los Angeles International Airport ,Southwest Airlines  ,Property Damage,Checked Baggage,Sporting Equipment & Supplies,$0.00 ,Deny
+2012110598345,10-Sep-12,6/26/2012 0:00,MIA,Miami International Airport,-,Passenger Property Loss,Checkpoint,Jewelry & Watches,$0.00 ,Deny
+2012071995589,11-Sep-12,6/8/2012 0:00,SAF,Santa Fe Municipal,American Airlines  ,Passenger Property Loss,Checked Baggage,Other,$36.99 ,Approve in Full
+2012091196708,11-Sep-12,3/1/2012 0:00,BWI,Baltimore/Washington Intl Thurgood Marshall,AirTran Airlines,Passenger Property Loss,Checkpoint,Computer & Accessories,$0.00 ,Deny
+2012091196712,11-Sep-12,8/26/2012 13:40,FWA,Ft. Wayne Municipal- Baer Field,-,Property Damage,Checked Baggage,Other,$366.32 ,Approve in Full
+2012091196716,11-Sep-12,6/20/2012 0:00,LAS,McCarran International,Southwest Airlines  ,Property Damage,Checked Baggage,Baggage/Cases/Purses,$0.00 ,Deny
+2012092096985,11-Sep-12,7/18/2012 0:00,SEA,Seattle-Tacoma International,Alaska Airlines  ,Passenger Property Loss,Checked Baggage,Cameras,$0.00 ,Deny
+2012102297911,11-Sep-12,8/29/2012 12:00,SAT,San Antonio International,AirTran Airlines,Passenger Property Loss,Checked Baggage,Automobile Parts & Accessories; Clothing,$0.00 ,Deny
+2012102297913,11-Sep-12,9/3/2012 18:00,PDX,Portland International,Southwest Airlines  ,Passenger Property Loss,Checkpoint,Personal Electronics,$557.23 ,Settle
+2012102397919,11-Sep-12,9/3/2012 21:00,BOS,Boston (Logan) International Airport ,-,Passenger Property Loss,Checkpoint,Personal Electronics,-,-
+2012102397921,11-Sep-12,8/30/2012 11:00,SEA,Seattle-Tacoma International,-,-,Checkpoint,Medical/Science,$319.00 ,Approve in Full
+2012102397922,11-Sep-12,9/9/2012 20:00,MIA,Miami International Airport,-,Passenger Property Loss,Checkpoint,Jewelry & Watches,$0.00 ,Deny
+2012102397924,11-Sep-12,8/23/2012 0:00,ORD,Chicago O'Hare International Airport,American Airlines  ,Property Damage,Checked Baggage,Baggage/Cases/Purses,$0.00 ,Deny
+2012102397926,11-Sep-12,8/26/2012 10:15,IAH,Houston - George Bush Intercontinental Airport,-,Passenger Property Loss,Checkpoint,Computer & Accessories,$0.00 ,Deny
+2012102397927,11-Sep-12,9/11/2011 20:45,IAD,Washington Dulles International,Southwest Airlines  ,Property Damage,Checked Baggage,Sporting Equipment & Supplies,$249.99 ,Approve in Full
+2012102397930,11-Sep-12,9/9/2012 22:00,SMF,Sacramento International Airport,Hawaiian Airlines  ,Passenger Property Loss,Checked Baggage,Hunting & Fishing Items; Tools & Home Improvement Supplies,$0.00 ,Deny
+2012102397932,11-Sep-12,8/10/2012 6:15,BWI,Baltimore/Washington Intl Thurgood Marshall,UAL  ,Passenger Property Loss,Checkpoint,Jewelry & Watches,$0.00 ,Deny
+2012102397933,11-Sep-12,8/24/2012 16:08,SDF,Louisville International,American Airlines  ,Passenger Property Loss,Checked Baggage,Other,$95.94 ,Approve in Full
+2012102397936,11-Sep-12,9/8/2012 14:00,IAD,Washington Dulles International,-,Passenger Property Loss,Checkpoint,Baggage/Cases/Purses,$0.00 ,Deny
+2012102397938,11-Sep-12,7/21/2012 0:00,BTV,"Burlington, VT",UAL  ,Passenger Property Loss,Checked Baggage,Cosmetics & Grooming,-,-
+2012102397939,11-Sep-12,8/27/2012 0:00,DFW,Dallas-Fort Worth International Airport ,American Airlines  ,Passenger Property Loss,Checked Baggage,Computer & Accessories,$79.00 ,Approve in Full
+2012102397942,11-Sep-12,9/10/2012 16:30,LGA,LaGuardia ,-,-,Checkpoint,Other,$895.81 ,Settle
+2012102397943,11-Sep-12,8/23/2012 0:00,MIA,Miami International Airport,USAir  ,Passenger Property Loss,Checked Baggage,Personal Electronics,$139.99 ,Approve in Full
+2012102397945,11-Sep-12,9/10/2012 18:00,EWR,Newark International Airport,UAL  ,Passenger Property Loss,Checked Baggage,Personal Electronics,$561.79 ,Approve in Full
+2012102397946,11-Sep-12,7/16/2012 10:30,LGA,LaGuardia ,Delta Air Lines  ,Property Damage,Checked Baggage,Baggage/Cases/Purses; Travel Accessories,$456.52 ,Settle
+2012102397947,11-Sep-12,8/5/2012 17:00,LIH,Lihue Airport,Hawaiian Airlines  ,Passenger Property Loss,Checked Baggage,Clothing,$48.74 ,Approve in Full
+2012102397949,11-Sep-12,8/23/2012 5:40,BWI,Baltimore/Washington Intl Thurgood Marshall,-,Passenger Property Loss,Checkpoint,Jewelry & Watches,$0.00 ,Deny
+2012102397950,11-Sep-12,6/4/2012 17:40,CMH,Port Columbus International,UAL  ,Passenger Property Loss,Checked Baggage,Currency; Personal Electronics,$0.00 ,Deny
+2012102397951,11-Sep-12,3/21/2012 12:30,LAX,Los Angeles International Airport ,Volaris Airlines,Passenger Property Loss,Checkpoint,Jewelry & Watches,$365.00 ,Settle
+2012102397952,11-Sep-12,8/4/2012 15:00,PHL,Philadelphia International Airport,Lufthansa  ,Passenger Property Loss,Checked Baggage,Cameras,$140.97 ,Settle
+2012102397953,11-Sep-12,8/22/2012 0:00,EWR,Newark International Airport,UAL  ,Passenger Property Loss,Checked Baggage,Currency; Jewelry & Watches,$100.00 ,Settle
+2012102397954,11-Sep-12,8/22/2012 0:00,HNL,Honolulu International Airport,UAL  ,Passenger Property Loss,Checked Baggage,Travel Accessories,$0.00 ,Deny
+2012102397956,11-Sep-12,8/11/2012 17:45,BUF,Buffalo Niagara International,-,-,Checkpoint,Computer & Accessories,$880.27 ,Settle
+2012102397958,11-Sep-12,7/30/2012 0:00,LAX,Los Angeles International Airport ,Emirates,Passenger Property Loss,Checked Baggage,Cameras,$672.49 ,Settle
+2012102397960,11-Sep-12,9/1/2012 7:00,STL,Lambert St. Louis International,Southwest Airlines  ,Property Damage,Checked Baggage,Clothing,$90.00 ,Approve in Full
+2012102397963,11-Sep-12,8/28/2012 14:30,JAX,Jacksonville International,American Airlines  ,Property Damage,Checkpoint,Personal Accessories,$0.00 ,Deny
+2012102397964,11-Sep-12,8/18/2012 0:00,SNA,John Wayne,UAL  ,Property Damage,Checked Baggage,Cosmetics & Grooming,$191.99 ,Approve in Full
+2012102397966,11-Sep-12,8/17/2012 7:20,BDL,Bradley International Airport,Southwest Airlines  ,Property Damage,Checkpoint,Personal Electronics,$699.00 ,Approve in Full
+2012102397967,11-Sep-12,8/29/2012 0:00,MCO,Orlando International Airport,USAir  ,Passenger Property Loss,Checked Baggage,Other,$0.00 ,Deny
+2012102397974,11-Sep-12,8/12/2012 15:00,FLL,Ft. Lauderdale-Hollywood International,Southwest Airlines  ,Property Damage,Checked Baggage,Sporting Equipment & Supplies,$0.00 ,Deny
+2012102397977,11-Sep-12,5/26/2012 0:00,LAX,Los Angeles International Airport ,USAir  ,Passenger Property Loss,Checked Baggage,Baggage/Cases/Purses; Other,$0.00 ,Deny
+2012102397998,11-Sep-12,9/9/2012 21:00,EWR,Newark International Airport,USAir  ,Property Damage,Checked Baggage,Baggage/Cases/Purses,$0.00 ,Deny
+2012102398003,11-Sep-12,6/23/2012 17:35,BOS,Boston (Logan) International Airport ,American Airlines  ,Passenger Property Loss,Checked Baggage,Other,-,-
+2012102398008,11-Sep-12,9/9/2012 10:00,ATL,Hartsfield-Jackson Atlanta International Airport,American Airlines  ,Passenger Property Loss,Checked Baggage,Other,$0.00 ,Deny
+2012102398017,11-Sep-12,8/11/2012 9:00,SNA,John Wayne,Delta Air Lines  ,Property Damage,Checkpoint,Personal Electronics,$521.39 ,Settle
+2012102398022,11-Sep-12,8/30/2012 0:00,CLE,Cleveland Hopkins International,American Airlines  ,Passenger Property Loss,Checked Baggage,Travel Accessories,$0.00 ,Deny
+2012102398025,11-Sep-12,8/29/2012 0:00,EWR,Newark International Airport,UAL  ,Passenger Property Loss,Checked Baggage,Personal Electronics,$0.00 ,Deny
+2012102398027,11-Sep-12,8/25/2012 0:00,PIT,Pittsburgh International Airport,Southwest Airlines  ,Passenger Property Loss,Checked Baggage,Household Items,$12.95 ,Approve in Full
+2012102398028,11-Sep-12,8/28/2012 0:00,LAX,Los Angeles International Airport ,Hawaiian Airlines  ,Passenger Property Loss,Checkpoint,Clothing,$0.00 ,Deny
+2012102498075,11-Sep-12,8/30/2012 0:00,DAL,Dallas Love Field,Southwest Airlines  ,Property Damage,Checked Baggage,Home Decor,$70.29 ,Settle
+2012102498079,11-Sep-12,8/13/2012 0:00,PHX,Phoenix Sky Harbor International,Southwest Airlines  ,Passenger Property Loss,Checked Baggage,Baggage/Cases/Purses,$5.99 ,Approve in Full
+2012102498083,11-Sep-12,3/19/2011 0:00,IND,Indianapolis International,USAir  ,Property Damage,Checkpoint,Personal Accessories,$0.00 ,Deny
+2012102498085,11-Sep-12,9/4/2012 0:00,SEA,Seattle-Tacoma International,Alaska Airlines  ,Passenger Property Loss,Checked Baggage,Medical/Science,$0.00 ,Deny
+2012102498086,11-Sep-12,8/25/2012 0:00,SLC,Salt Lake City International Airport,Delta Air Lines  ,Property Damage,Checked Baggage,Household Items,$21.95 ,Settle
+2012102498088,11-Sep-12,7/31/2012 0:00,PHX,Phoenix Sky Harbor International,USAir  ,Passenger Property Loss,Checkpoint,Audio/Video; Baggage/Cases/Purses; Cosmetics & Grooming; Cosmetics & Grooming; Other,$0.00 ,Deny
+2012112198824,11-Sep-12,8/15/2012 0:00,JFK,John F. Kennedy International,American Airlines  ,Passenger Property Loss,Checked Baggage,-,$15.00 ,Approve in Full
+2012082696198,12-Sep-12,6/12/2012 16:00,PFN,Panama City-Bay County International,Delta Air Lines  ,Property Damage,Checked Baggage,Food & Drink,$0.00 ,Deny
+2012091296733,12-Sep-12,6/27/2012 19:58,LAX,Los Angeles International Airport ,Air China,Property Damage,Checked Baggage,-,$0.00 ,Deny
+2012091296754,12-Sep-12,7/26/2012 0:00,OAK,Metropolitan Oakland International,USAir  ,Passenger Property Loss,Checked Baggage,Hunting & Fishing Items,$0.00 ,Deny
+2012091396773,12-Sep-12,3/24/2012 20:00,LAS,McCarran International,-,Property Damage,Checked Baggage,Computer & Accessories,"$1,630.34 ",Approve in Full
+2012100197287,12-Sep-12,8/23/2012 7:00,LGA,LaGuardia ,American Airlines  ,Property Damage,Checked Baggage,Other,"$1,797.50 ",Settle
+2012102397957,12-Sep-12,5/7/2012 8:00,IAD,Washington Dulles International,KLM Royal Dutch Airlines,Passenger Property Loss,Checked Baggage,Personal Electronics,$74.50 ,Settle
