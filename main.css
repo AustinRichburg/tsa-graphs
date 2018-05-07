@@ -1,3 +1,7 @@
+svg {
+    display: block;
+}
+
 svg text {
     fill: blue;
     font: 7px sans-serif;
@@ -7,3 +11,9 @@ svg text {
 .bar {
      fill: steelblue;
 }
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2px;
+  }

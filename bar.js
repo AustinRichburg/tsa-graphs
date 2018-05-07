@@ -2,8 +2,8 @@
 // ie) Sort into years 2010, 2011, etc and when the user chooses to view a graph in 2012, THEN parse the data and create the graph rather than parsing data across
 //     all years at once
 
-/* Used to hold unique airports, their claims, and their number of claims sorted by months within each year. */
-var airports = [];
+/* Used to hold unique airportsClaims, their claims, and their number of claims sorted by months within each year. */
+var airportsClaims = [];
 
 /* Holds the average number of claims per month for each unique airport */
 //var avgs = [];
@@ -11,20 +11,7 @@ var airports = [];
 /* Holds the airport codes. This is used for validation purposes */
 var codes = [];
 
-/* The number of months from 2010 - 2013. Used to find the mean. */
-const MONTHS = 48;
-
-var margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = 2060 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
-
-var x = d3.scaleBand()
-        .range([0, width])
-        .padding(0.1);
-var y = d3.scaleLinear()
-          .range([height, 0]);
-
-var svg = d3.select("body").append("svg")
+var bg = d3.select("#bar")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
@@ -38,12 +25,12 @@ d3.csv("./data/claims-small.csv")
         parseData(data);
         //setDates();
         avgClaims();
-        console.log(airports);
-        x.domain(airports.map(function(airport) { return airport.code; }));
+        console.log(airportsClaims);
+        x.domain(airportsClaims.map(function(airport) { return airport.code; }));
         y.domain([0, 0.5]);
         // append the rectangles for the bar chart
-        svg.selectAll(".bar")
-            .data(airports)
+        bg.selectAll(".bar")
+            .data(airportsClaims)
             .enter().append("rect")
             .attr("class", "bar")
             .attr("x", function(airport){
@@ -58,12 +45,12 @@ d3.csv("./data/claims-small.csv")
             });
 
         // add the x Axis
-        svg.append("g")
+        bg.append("g")
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x));
 
         // add the y Axis
-        svg.append("g")
+        bg.append("g")
             .call(d3.axisLeft(y));
     });
 
@@ -80,14 +67,14 @@ d3.csv("./data/claims-small.csv")
 //         // Creates a new object for each new airport as needed
 //         if(!codes.find(function(ele){ return ele === code })){
 //             codes.push(code);
-//             airports.push({
+//             airportsClaims.push({
 //                 code: code,
 //                 years: {},
 //                 claims: []
 //             })
 //         }
 //         // Associates the claim with the airport
-//         airports.find(function(element){ return element.code === code }).claims.push(date);
+//         airportsClaims.find(function(element){ return element.code === code }).claims.push(date);
 //     });
 // }
 
@@ -98,14 +85,14 @@ function parseData(data){
         // Creates a new object for each new airport as needed
         if(!codes.find(function(ele){ return ele === code })){
             codes.push(code);
-            airports.push({
+            airportsClaims.push({
                 code: code,
                 claims: 0,
                 avgClaims: 0
             })
         }
         // Associates the claim with the airport
-        airports.find(function(element){ return element.code === code }).claims++;
+        airportsClaims.find(function(element){ return element.code === code }).claims++;
     });
 }
 
@@ -113,7 +100,7 @@ function parseData(data){
  * Sorts each claim for each airport into new objects based off the month and year of the claims
  */
 function setDates(){
-    airports.forEach(function(airport){
+    airportsClaims.forEach(function(airport){
         // Goes through individual claims
         airport.claims.forEach(function(claim){
             var year = claim.getFullYear();
@@ -137,7 +124,7 @@ function setDates(){
  */
 // function avgClaims(){
 //     // For Each Airport
-//     airports.forEach(function(airport){
+//     airportsClaims.forEach(function(airport){
 //         // Creates a new airport in the avgs array
 //         avgs.push({
 //             code: airport.code
@@ -160,7 +147,7 @@ function setDates(){
 // }
 
 function avgClaims(){
-    airports.forEach(function(airport){
+    airportsClaims.forEach(function(airport){
         airport.avgClaims = airport.claims / MONTHS;
     });
 }
@@ -197,33 +184,3 @@ function getFullMonth(month){
             return "Dec";
     }
 }
-
-// var data = [10, 5, 12, 15];
-// var width = 300,
-//     scaleFactor = 20,
-//     barHeight = 30;
-
-// var graph = d3.select("body")
-//     .append("svg")
-//     .attr("width", width)
-//     .attr("height", barHeight * data.length);
-
-// var bar = graph.selectAll("g")
-//     .data(data)
-//     .enter()
-//     .append("g")
-//     .attr("transform", function(d, i){
-//         return "translate(0, " + i * barHeight + ")";
-//     });
-
-// bar.append("rect")
-//     .attr("width", function(d){
-//         return d * scaleFactor;
-//     })
-//     .attr("height", barHeight - 1);
-
-// bar.append("text")
-//     .attr("x", function(d){ return d * scaleFactor; })
-//     .attr("y", barHeight / 2)
-//     .attr("dy", ".35em")
-//     .text(function(d){ return d; });
