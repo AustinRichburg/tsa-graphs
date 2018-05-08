@@ -1,19 +1,44 @@
-svg {
-    display: block;
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
-svg text {
-    fill: blue;
-    font: 7px sans-serif;
-    text-anchor: end;
+h1 {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.graph {
+    margin: 50px 0 0 0;
+    min-width: 100%;
+    overflow: scroll;
 }
 
 .bar {
-     fill: steelblue;
+    fill: #a0db8e;
 }
 
 .line {
     fill: none;
     stroke: steelblue;
     stroke-width: 2px;
-  }
+}
+
+.bar:hover {
+    fill: #405738;
+}
+
+.tooltip {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 600;
+    pointer-events: none;
+    background-color: #fffbae;
+    color: darkblue;
+    padding: 7px;
+    border-radius: 10%;
+}
+
+.tooltip > p {
+    margin: 0;
+    text-align: center;
+}

@@ -7,16 +7,23 @@ var valueline = d3.line()
     .x(function(airport) { return x(airport.code); })
     .y(function(airport) { return y(airport.avgCloseAmt); });
 
-var lg = d3.select("#line")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+var lg = "";
 
-d3.csv("./data/claims-small.csv")
+function initLineGraph(){
+    lg = d3.select("#line-container").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+}
+
+function createLineGraph(){
+    d3.csv("./data/claims-small.csv")
     .then(function(data){
-        parseData2(data);
-        getAvgAmount();
+        if(airportsValues.length == 0){
+            parseData2(data);
+            getAvgAmount();
+        }
         console.log(airportsValues);
 
         x.domain(airportsValues.map(function(airport) { return airport.code; }));
@@ -27,6 +34,35 @@ d3.csv("./data/claims-small.csv")
             .attr("class", "line")
             .attr("d", valueline);
 
+        var tooltip = d3.select("#line-container").append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0);
+
+        var tipMouseover = function(airport) {
+            var html  = "<p>" + airport.code + "</p>$" + airport.avgCloseAmt.toFixed(2);
+            tooltip.html(html)
+                .style("left", (d3.event.pageX + 15) + "px")
+                .style("top", (d3.event.pageY - 28) + "px")
+                .transition()
+                .duration(200)
+                .style("opacity", .9)
+        };
+
+        var tipMouseout = function(d) {
+            tooltip.transition()
+                .duration(300)
+                .style("opacity", 0);
+        };
+
+        lg.selectAll("dot")
+            .data(airportsValues)
+            .enter().append("circle")
+            .attr("r", 3.5)
+            .attr("cx", function(airport) { return x(airport.code); })
+            .attr("cy", function(airport) { return y(airport.avgCloseAmt); })
+            .on("mouseover", tipMouseover)
+            .on("mouseout", tipMouseout);
+
         lg.append("g")
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x));
@@ -35,6 +71,7 @@ d3.csv("./data/claims-small.csv")
             .call(d3.axisLeft(y));
 
     });
+}
 
 function parseData2(data){
     data.forEach(function(curr){

@@ -1,7 +1,3 @@
-//########### Problem with effiency... possible fix would be to sort data into years first and then parse into years as needed.
-// ie) Sort into years 2010, 2011, etc and when the user chooses to view a graph in 2012, THEN parse the data and create the graph rather than parsing data across
-//     all years at once
-
 /* Used to hold unique airportsClaims, their claims, and their number of claims sorted by months within each year. */
 var airportsClaims = [];
 
@@ -11,23 +7,53 @@ var airportsClaims = [];
 /* Holds the airport codes. This is used for validation purposes */
 var codes = [];
 
-var bg = d3.select("#bar")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+var totalAvg = 0;
+
+var bg = "";
+
+function initBarGraph(){
+    bg = d3.select("#bar-container").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+}
 
 /**
  * Reads in the data from the claims csv file, parses it, and creates a graph.
  */
-d3.csv("./data/claims-small.csv")
+function createBarGraph(){
+    d3.csv("./data/claims-small.csv")
     .then(function(data){
-        parseData(data);
-        //setDates();
-        avgClaims();
+        if(airportsClaims.length == 0){
+            parseData(data);
+            //setDates();
+            avgClaims();
+        }
         console.log(airportsClaims);
         x.domain(airportsClaims.map(function(airport) { return airport.code; }));
         y.domain([0, 0.5]);
+
+        var tooltip = d3.select("#bar-container").append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0);
+
+        var tipMouseover = function(airport) {
+            var html  = "<p>" + airport.code + "</p><p>Mean: " + airport.avgClaims + "</p><p>Std Dev: " + "</p>";
+            tooltip.html(html)
+                .style("left", (d3.event.pageX + 15) + "px")
+                .style("top", (d3.event.pageY - 28) + "px")
+                .transition()
+                .duration(200)
+                .style("opacity", .9)
+        };
+
+        var tipMouseout = function(d) {
+            tooltip.transition()
+                .duration(300)
+                .style("opacity", 0);
+        };
+
         // append the rectangles for the bar chart
         bg.selectAll(".bar")
             .data(airportsClaims)
@@ -42,7 +68,9 @@ d3.csv("./data/claims-small.csv")
             })
             .attr("height", function(airport){
                 return height - y(airport.avgClaims);
-            });
+            })
+            .on("mouseover", tipMouseover)
+            .on("mouseout", tipMouseout);
 
         // add the x Axis
         bg.append("g")
@@ -53,6 +81,8 @@ d3.csv("./data/claims-small.csv")
         bg.append("g")
             .call(d3.axisLeft(y));
     });
+}
+
 
 /**
  * Creates a new object for each unique airport passed to it and sorts claims based on the airport
@@ -147,9 +177,13 @@ function setDates(){
 // }
 
 function avgClaims(){
+    var sum = 0;
     airportsClaims.forEach(function(airport){
+        sum += airport.claims;
         airport.avgClaims = airport.claims / MONTHS;
     });
+    totalAvg = sum / airportsClaims.length;
+    console.log("Average: " + totalAvg);
 }
 
 /**
