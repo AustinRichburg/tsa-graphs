@@ -1,36 +1,35 @@
-var airportsValues = [];
-var codes2 = [];
-var patt = /\d+\.\d+/;
 var max = 0;
 
 var valueline = d3.line()
     .x(function(airport) { return x(airport.code); })
     .y(function(airport) { return y(airport.avgCloseAmt); });
 
-var lg = "";
+var lg = null;
 
 function initLineGraph(){
-    lg = d3.select("#line-container").append("svg")
+    if(lg){
+        lg.remove();
+    }
+    lg = d3.select("#line-graph")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 }
 
-function createLineGraph(){
+function drawLineGraph(){
     d3.csv("./data/claims-small.csv")
     .then(function(data){
-        if(airportsValues.length == 0){
-            parseData2(data);
-            getAvgAmount();
+        if(airports.length == 0){
+            parseData(data);
         }
-        console.log(airportsValues);
+        console.log(airports);
 
-        x.domain(airportsValues.map(function(airport) { return airport.code; }));
+        x.domain(airports.map(function(airport) { return airport.code; }));
         y.domain([0, max]);
 
         lg.append("path")
-            .datum(airportsValues)
+            .datum(airports)
             .attr("class", "line")
             .attr("d", valueline);
 
@@ -55,7 +54,7 @@ function createLineGraph(){
         };
 
         lg.selectAll("dot")
-            .data(airportsValues)
+            .data(airports)
             .enter().append("circle")
             .attr("r", 3.5)
             .attr("cx", function(airport) { return x(airport.code); })
@@ -70,37 +69,5 @@ function createLineGraph(){
         lg.append("g")
             .call(d3.axisLeft(y));
 
-    });
-}
-
-function parseData2(data){
-    data.forEach(function(curr){
-        var amt = curr["Close Amount"];
-        if(amt === '-'){
-            amt = "$0.00";
-        }
-        curr.amt = +patt.exec(amt);
-        // Gets the airport code
-        var code = curr["Airport Code"];
-        // Creates a new object for each new airport as needed
-        if(!codes2.find(function(ele){ return ele === code })){
-            codes2.push(code);
-            airportsValues.push({
-                code: code,
-                closeAmt: 0,
-                avgCloseAmt: 0
-            })
-        }
-        // Associates the claim with the airport
-        airportsValues.find(function(element){ return element.code === code }).closeAmt += curr.amt;
-    });
-}
-
-function getAvgAmount(){
-    airportsValues.forEach(function(airport){
-        airport.avgCloseAmt = airport.closeAmt / MONTHS;
-        if(airport.avgCloseAmt > max){
-            max = airport.avgCloseAmt;
-        }
     });
 }

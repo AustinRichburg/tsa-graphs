@@ -7,6 +7,10 @@ h1 {
     padding: 30px 10px;
 }
 
+.home {
+    text-align: center;
+}
+
 .graph {
     margin: 50px 0 0 0;
     min-width: 100%;
@@ -41,4 +45,13 @@ h1 {
 .tooltip > p {
     margin: 0;
     text-align: center;
+}
+
+.user-data {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.user-data > p {
+    font-size: 30px;
 }

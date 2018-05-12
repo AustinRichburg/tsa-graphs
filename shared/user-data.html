@@ -1,0 +1,22 @@
+<div class="container user-data">
+    <p>Enter new data here: </p>
+    <br>
+    <form name="userForm" ng-submit="submitUserData(userData)" novalidate>
+        <div class="form-group">
+            <label for="airport-code">Airport Code*</label>
+            <input id="airport-code" class="form-control" type="text" name="code" placeholder="ex. BOS" required ng-model="userData.code" ng-maxlength="3">
+            <p ng-show="userForm.code.$invalid && !userForm.code.$pristine" class="help-block">Please enter a valid airport code.</p>
+        </div>
+        <div class="form-group">
+            <label for="incident-date">Incident Date*</label>
+            <input id="incident-date" class="form-control" type="text" name="date" placeholder="ex. MM/DD/YYYY" required ng-model="userData.date" ng-pattern="datePattern">
+            <p ng-show="userForm.date.$invalid && !userForm.date.$pristine" class="help-block">Please enter a valid date.</p>
+        </div>
+        <div class="form-group">
+            <label for="value">Value*</label>
+            <input id="value" class="form-control" type="text" name="value" placeholder="ex. $14.00" required ng-model="userData.value" ng-pattern="pricePattern">
+            <p ng-show="userForm.value.$invalid && !userForm.value.$pristine" class="help-block">Please enter a valid value.</p>
+        </div>
+        <button class="btn btn-primary" type="submit" ng-disabled="userForm.$invalid">Submit</button>
+    </form>
+</div>
