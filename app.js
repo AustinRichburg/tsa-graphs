@@ -1,3 +1,4 @@
+/* Sets up the module, the routes, and the user data component */
 var app = angular.module("app", ["ngRoute"])
     .config(function($routeProvider){
         $routeProvider.when('/', {
@@ -21,6 +22,7 @@ var app = angular.module("app", ["ngRoute"])
         controller: 'MainCtrl'
     });
 
+/* Sets up the main controller. Controls the tabs and the user data form */
 app.controller("MainCtrl", function($scope, UpdateService){
     $scope.activeTab = -1;
     $scope.userData = {};
@@ -41,6 +43,7 @@ app.controller("MainCtrl", function($scope, UpdateService){
     });
 });
 
+/* The controller used for the bar graph */
 app.controller("BarCtrl", function($scope, UpdateService){
     $scope.updated = UpdateService.updated;
 
@@ -63,6 +66,7 @@ app.controller("BarCtrl", function($scope, UpdateService){
     createGraph();
 });
 
+/* The controller used for the line graph */
 app.controller("LineCtrl", function($scope, UpdateService){
     $scope.updated = UpdateService.updated;
 
@@ -85,6 +89,7 @@ app.controller("LineCtrl", function($scope, UpdateService){
     createGraph();
 });
 
+/* A service that tells whether the data set has been updated */
 app.factory('UpdateService', function(){
     return {
         updated: false,

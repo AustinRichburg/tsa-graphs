@@ -1,14 +1,27 @@
+/* GENERAL */
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
+h1, h3 {
     text-align: center;
     padding: 30px 10px;
 }
 
-.home {
+/* HOME PAGE */
+.home > div {
+    margin: 30px auto;
     text-align: center;
+    width: 75%;
+    padding: 30px;
+    background-color: #D8BFD8;
+    border-radius: 5%;
+    box-shadow: 1px 3px 1px #aaa;
+}
+
+/* GRAPHS */
+svg text {
+    font-weight: 700;
 }
 
 .graph {
@@ -47,6 +60,7 @@ h1 {
     text-align: center;
 }
 
+/* USER DATA */
 .user-data {
     margin-top: 40px;
     margin-bottom: 40px;
