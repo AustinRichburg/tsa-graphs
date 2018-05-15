@@ -21,8 +21,8 @@ var patt = /\d+\.\d{2}/;
 
 /* The dimensions of the graphs */
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = 2560 - margin.left - margin.right,
-    height = 800 - margin.top - margin.bottom;
+    width = window.innerWidth - margin.left - margin.right,
+    height = (.5 * width) - margin.top - margin.bottom;
 
 /* The x-axis dimensions */
 var x = d3.scaleBand()
