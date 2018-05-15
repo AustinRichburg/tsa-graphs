@@ -19,10 +19,13 @@ var maxClaim = 0;
 /* Regex pattern used to find prices (ex. 654.82) */
 var patt = /\d+\.\d{2}/;
 
+var totalAvg = 0;
+var stdDev = 0;
+
 /* The dimensions of the graphs */
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = window.innerWidth - margin.left - margin.right,
-    height = (.5 * width) - margin.top - margin.bottom;
+    width = 2550 - margin.left - margin.right,
+    height = 800 - margin.top - margin.bottom;
 
 /* The x-axis dimensions */
 var x = d3.scaleBand()
@@ -90,6 +93,17 @@ function getAvgs(){
     });
     totalAvg = sum / airports.length;
     console.log("Average: " + totalAvg);
+    getStdDev();
+}
+
+function getStdDev(){
+    var sum = 0;
+    airports.forEach(function(airport){
+        sum += (airport.avgClaims - totalAvg) * (airport.avgClaims - totalAvg);
+    });
+    var variance = sum / airports.length;
+    stdDev = Math.sqrt(variance);
+    console.log("std dev: " + stdDev);
 }
 
 /**

@@ -43,7 +43,7 @@ function drawBarGraph(){
          * @param {*} airport The airport associated with the bar being viewed
          */
         var tipMouseover = function(airport) {
-            var html  = "<p>" + airport.code + "</p><p>Mean: " + airport.avgClaims + "</p><p>Std Dev: " + "</p>";
+            var html  = "<p>" + airport.code + "</p><p>Mean: " + airport.avgClaims + "</p><p>Std Dev: " + stdDev + "</p>";
             tooltip.html(html)
                 .style("left", (d3.event.pageX + 15) + "px")
                 .style("top", (d3.event.pageY - 28) + "px")
