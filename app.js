@@ -2,15 +2,18 @@
 var app = angular.module("app", ["ngRoute"])
     .config(function($routeProvider){
         $routeProvider.when('/', {
-            templateUrl: './home.html'
+            templateUrl: './home.html',
+            activeTab: 'home'
         });
         $routeProvider.when('/claims', {
             templateUrl: './bar-graph/bar.html',
-            controller: 'BarCtrl'
+            controller: 'BarCtrl',
+            activeTab: 'bar'
         });
         $routeProvider.when('/cost', {
             templateUrl: './line-graph/line.html',
-            controller: 'LineCtrl'
+            controller: 'LineCtrl',
+            activeTab: 'line'
         });
         $routeProvider.otherwise({
             redirectTo: '/',
@@ -24,23 +27,13 @@ var app = angular.module("app", ["ngRoute"])
 
 /* Sets up the main controller. Controls the tabs and the user data form */
 app.controller("MainCtrl", function($scope, UpdateService){
-    $scope.activeTab = -1;
     $scope.userData = {};
     $scope.datePattern = /\d{2}\/\d{2}\/\d{4}/;
     $scope.pricePattern = patt;
-    var tabs = document.body.querySelectorAll(".nav-link");
     $scope.submitUserData = function(data){
         update(data);
         UpdateService.setUpdated();
     }
-    $scope.$watch('activeTab', function(newValue, oldValue, scope){
-        if(scope.activeTab != -1){
-            tabs.forEach(function(tab){
-                tab.classList.remove("active");
-            });
-            tabs[scope.activeTab].classList.add('active');
-        }
-    });
 });
 
 /* The controller used for the bar graph */
@@ -87,6 +80,10 @@ app.controller("LineCtrl", function($scope, UpdateService){
     });
 
     createGraph();
+});
+
+app.controller("TabCtrl", function($scope, $route){
+    $scope.route = $route;
 });
 
 /* A service that tells whether the data set has been updated */

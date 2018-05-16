@@ -17,17 +17,19 @@
 
     <h1>TSA Graphs 2010 - 2013</h1>
 
+    <div ng-controller="TabCtrl">
     <ul class="nav nav-tabs">
         <li class="nav-item">
-            <a class="nav-link active" href="#!" ng-click="activeTab = 0">Home</a>
+            <a class="nav-link" href="#!" ng-class="{active: route.current.activeTab === 'home'}">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#!claims" ng-click="activeTab = 1">Average Claims</a>
+            <a class="nav-link" href="#!claims" ng-class="{active: route.current.activeTab === 'bar'}">Average Claims</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#!cost" ng-click="activeTab = 2">Average Cost</a>
+            <a class="nav-link" href="#!cost" ng-class="{active: route.current.activeTab === 'line'}">Average Cost</a>
         </li>
     </ul>
+    </div>
 
     <div ng-view></div>
 
